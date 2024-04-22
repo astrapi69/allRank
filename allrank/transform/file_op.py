@@ -35,8 +35,8 @@ def read_gzip_file(file_path) -> pd.DataFrame:
         
 
 
-input_csv_path = 'C:/Users/aster/dev/git/hub/astrapi69/allRank/allrank/data/exploded_df_merged_amenities.csv'
-output_csv_path = 'C:/Users/aster/dev/git/hub/astrapi69/allRank/allrank/data/subset_exploded_df_merged_amenities.csv'
+input_csv_path = 'C:/Users/aster/dev/git/hub/astrapi69/allRank/allrank/transform/exploded_df_merged_amenities.csv'
+output_csv_path = 'C:/Users/aster/dev/git/hub/astrapi69/allRank/allrank/transform/subset_exploded_df_merged_amenities.csv'
 
 subset_csv_file(input_csv_path, output_csv_path, 5)
 
