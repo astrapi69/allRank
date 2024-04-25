@@ -10,6 +10,8 @@
 .idea/*.*
 
 ### Data ###
+/expedia_data
+/test_run_custom
 *.csv
 *.tsv
 *.dat
